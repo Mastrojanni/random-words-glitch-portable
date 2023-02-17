@@ -6,7 +6,7 @@ const RANDOMIZE_DOM_NAME = 'randomize';
 const randomizeWordsGlitch = (finalWord="") => {
 
     // init vars
-    const countToFinalWord = 1;
+    const countToFinalWord = 12;
     let currentCountToFinalWord = 0;
 
     const targetDomNames = [
