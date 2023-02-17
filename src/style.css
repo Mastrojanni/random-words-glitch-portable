@@ -1,0 +1,79 @@
+/*  Table of Content (Index)
+        1. Global
+        2. RootContainer
+*/
+
+/*  =======================
+    1. Global
+    ======================= */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+
+    background: #D5D4D4;
+    color: black;
+
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6, p, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+p, a, button {
+    font-size: 1rem;
+    color: black;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    font: inherit;
+}
+
+/* Buttons */
+button {
+    display: inline-block;
+
+    padding: 0.63em 1.563em;
+
+    border: 1.5px solid black;
+    background: white;
+
+    font: inherit;
+    text-align: center;
+}
+
+/* Inputs */
+input, textarea, select {
+    font: inherit;
+}
+
+/* media */
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+
+/*  =======================
+    2. RootContainer
+    ======================= */
+body > header,
+body > main {
+    padding: 20px 40px;
+}
+
+section {
+    width: 100%;
+
+    padding: 10px 20px;
+
+    text-align: left;
+}
