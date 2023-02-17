@@ -12,7 +12,8 @@ const randomizeWordsGlitch = (finalWord="") => {
     const targetDomNames = [
         'h1', 'h2', 'h3', 'h4', 'h5', 'h6',
         'p', 'a', 'span', 'button', 'code',
-        'input', 'samp', 'strong'
+        'input', 'samp', 'strong', 'b', 'li',
+        'time', 'label'
     ];
 
     const targetDomElements = [];
